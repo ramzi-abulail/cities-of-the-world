@@ -1,4 +1,4 @@
-const cities  = [
+const CitiesData  = [
 
     { name: 'Zarqa', country: 'Jordan', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/%D9%85%D9%8A%D8%AF%D8%A7%D9%86_%D8%A7%D9%84%D8%AC%D9%8A%D8%B4_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A_3.jpg/420px-%D9%85%D9%8A%D8%AF%D8%A7%D9%86_%D8%A7%D9%84%D8%AC%D9%8A%D8%B4_%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A_3.jpg' },
     { name: 'Amman', country: 'Jordan', image: 'https://cdn.kimkim.com/files/a/content_articles/featured_photos/48c38e1bc7ac4fe65333bd312a62e078974a4825/big-bff021ba0a331150d63cd1046fb2b573.jpg' },
@@ -26,5 +26,11 @@ const cities  = [
         { name: 'Bethlehem', country: 'Palestine', image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Bethlehem_collage.jpg/409px-Bethlehem_collage.jpg' },
 
   ];
-
-  export default cities;
+  export default function CiteData() {
+    return (
+      <div>
+        <h1>City Data</h1>
+        <Cities cityData={cityData} />
+      </div>
+    );
+    }

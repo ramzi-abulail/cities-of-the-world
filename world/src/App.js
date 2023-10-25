@@ -3,8 +3,6 @@ import './App.css';
 import Navbar from './Nav';
 import Footer123 from './Footer123';
 import Hero from './Hero';
-import List from './List';
-import Cities from'./cities';
 
 
 function App() {
@@ -15,15 +13,10 @@ function App() {
    
       <div className="App">
         <Navbar/>
-        <Hero 
-          specifyCities = {setCities}
-        />
+        <Hero/>
   
-        {console.log(cities)}
+        
   
-        <List
-        cities = {Cities}
-        />
   
         <Footer123/>
         
